@@ -110,7 +110,7 @@ class GoogleMapsPlaces extends GoogleWebService {
   }
 
   Future<PlacesDetailsResponse> getDetailsByPlaceId(
-    String placeId, {
+    String? placeId, {
     String? sessionToken,
     List<String> fields = const [],
     String? language,
